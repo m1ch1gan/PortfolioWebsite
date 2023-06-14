@@ -1,0 +1,37 @@
+    body{
+      text-align: center;
+    }
+    a:link,
+    a:visited {
+        text-decoration: none;
+        display: block;
+        width: 100px;
+        text-align: right;
+        margin-bottom: 1px;
+        margin-left: 85%;
+        color: black;
+      }
+    /*applicable style to all a element*/
+    a:hover, a:active{
+      color: maroon;
+    }
+    /*applicable style to all em element*/
+    em{
+      color: rgb(164, 93, 0);
+      font-size: 28px;
+    }
+    /*applicable style class = menulist*/
+    p, h1, h2 {
+      font-size: 15px;
+      color: black;
+      text-align: center;
+    }
+    /*applicable style to all img element*/
+    img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 300px;
+      border: none;
+    }
+    
